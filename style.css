@@ -1,5 +1,6 @@
 html, body {
 	width: 100%;
+	margin: 0px;
 	
 }
 body {
@@ -17,11 +18,14 @@ span {
 	color: #EF8989;
 }
 .б1хед {
+	width: 100%;
 	padding: 0.5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: black;
+	position: sticky;
+	top: 0;
 }
 .logo {
 	margin-left: 7%;
