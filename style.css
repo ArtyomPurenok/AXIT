@@ -1,0 +1,537 @@
+html, body {
+	width: 100%;
+	
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+
+
+
+
+/*блок 1*/
+.блок1 {
+	width: 100%;
+}
+span {
+	color: #EF8989;
+}
+.б1хед {
+	padding: 0.5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+.logo {
+	margin-left: 7%;
+	font-size: 30px;
+	color: WhiteSmoke;
+}
+.nav {
+	margin-right: 7%;
+	color: LightGray;
+}
+.nav a {
+	text-decoration: none;
+	color: #A9A9A9;
+}
+.nav li{
+display: inline;
+padding: 0 0 0 55px;
+}
+.блок1 main {
+	padding: 8% 0px;
+}
+.б1маин {	
+	background-image: url(image/1.png);
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.b1main1 {
+	padding-left: 7%;
+}
+.b1ax {
+	color: white;
+	margin: 6% 0%;
+	font-size: 65px;
+}
+.b1main2 {
+	text-align: center;
+	width: 24%;
+	padding-right: 7%;
+}
+.b1p1 {
+	color: white;
+	margin: 5% 0%;
+	font-size: 40px;
+}
+.b1p2 {
+	color: #A9A9A9;
+	font-size: 20px;
+}
+.line {
+	border: none;
+	background-color: gray;
+	height: 2px;
+	width: 13%;
+	margin: 5% 0%;
+}
+.download {
+	color: white;
+	background-color: Transparent;
+	border: 2px solid white;
+	width: 25%;
+	height: 12%;
+}
+.б1футер {
+	background: PapayaWhip;
+	display: flex;
+	justify-content: space-between;
+}
+.b1footer1 {
+	color: black;
+	padding-left: 7%;
+}
+.b1footer2 img {
+	padding: 2% 0px 0px 0px;
+ margin-right: 40px;
+	width: 60px;
+	height: 60px;
+}
+.b1footer2 {
+	padding-right: 7%;
+}
+.input {
+	background: white;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 20px;
+	padding: 5%;
+}
+.input p {
+	font-size: 23px;
+	font-weight: 600;
+}
+.text {
+	height: 15%;
+	 width: 80%;
+  border: none;
+  background: no-repeat bottom, 50% calc(100% - 1px);
+  background-size: 0 100%, 100% 100%;
+  background-image: linear-gradient(0deg, #C0C0C0 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
+}
+
+.text:focus {
+  background-size: 100% 100%, 100% 100%;
+  transition-duration: .3s;
+  box-shadow: none;
+  outline: none;
+}
+.b1but {
+	color: WhiteSmoke;
+	background: #EF8989;
+	border-radius: 0px 0px 10px 10px;
+	height: 15%;
+	width: 100%;
+	font-size: 16px;
+}
+.b1footer1 h1{
+font-size: 26px;
+}
+.b1footer1 p {
+	color: #A9A9A9;
+font-size: 17px;
+}
+.b1main2 main {
+	background: white;
+}
+
+
+
+
+
+
+/*блок 2*/
+.блок2 {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 6% 0px;
+}
+.tab1 {
+	color: white;
+	background: #383838;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 5% 0%;
+	display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.tbox {
+	background: #EF8989;
+	color: white;
+}
+.b2div1 {
+	margin-left: 7%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.b2div2 {
+	padding: 0% 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.b2div2 h1 {
+   font-size: 25px;
+}
+.b2text {
+	color: #A9A9A9;
+	 font-size: 14px;
+	 font-weight: 400;
+}
+.download2 {
+	color: white;
+	background-color: #EF8989;
+	border: 2px solid #EF8989;
+	width: 24%;
+	height: 14%;
+	font-size: 15px;
+	font-weight: 600;
+}
+.b2image {
+	margin-right: 7%;
+}
+.b2img {
+	width: 320px;
+	height: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*блок 3*/
+.блок3 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 70px 0px;
+}
+.b3div1 {
+text-align: center;
+}
+.b3div1 p {
+	color: #A9A9A9;
+  font-size: 17px;
+  margin: 1% 0px 5% 0px;
+}
+.b3div1 h1 {
+  font-size: 35px;
+  margin: 0px 0px 1% 0px;
+}
+.b3col img {
+	width: 65px;
+	height: 65px;
+	 border-radius: 100px;
+    border: 3px solid #EF8989;
+    margin: 3%;
+}
+.b3div2 {
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.b3div2 h1 {
+	font-size: 25px;
+	padding: 3%;
+	margin: 3%;
+}
+.b3div2 p {
+	font-size: 17px;
+	margin: 0px;
+}
+.b3line {
+	border: none;
+	background-color: #EF8989;
+	height: 2px;
+	width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/*блок 4*/
+.блок4 {
+	background: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 70px 0px;
+}
+.b4div1 {
+	text-align: center;
+	padding: 3%;
+}
+.b4div1 h1 {
+  font-size: 35px;
+  margin: 0px 0px 1% 0px;
+}
+.b4div1 p {
+	color: #A9A9A9;
+  font-size: 17px;
+  margin: 1% 0px 0px 0px;
+}
+.b4line {
+	border: none;
+	background-color: #EF8989;
+	height: 1px;
+	width: 5%;
+}
+.b4div2 {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 7%;
+	padding-left: 7%;
+	font-size: 17px;
+	line-height: 50px;
+}
+.b4ctr {
+	background: white;
+}
+.grid {
+	
+	margin: 50px 0px;
+ display: grid;
+ grid-template-rows: 50px 100px repeat(7, 50px);
+ grid-auto-columns: 350px;
+ align-items: center;
+ grid-row-gap: 3px;
+}
+.two {
+	margin: 30px 0px;
+	display: grid;
+ grid-template-rows: 50px 100px repeat(7, 50px);
+ grid-auto-columns: 350px;
+ align-items: center;
+ grid-row-gap: 3px;
+}
+.b4gridcol {
+	color: white;
+	background: #282828;
+	align-self: stretch;
+}
+.b4t1 {
+	font-size: 22px;
+}
+.b4t2 {
+	font-size: 33px;
+	line-height: 100px;
+}
+
+
+
+
+
+/*блок 5*/
+.блок5 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 70px 0px;
+}
+.b5line {
+	border: none;
+	background-color: #EF8989;
+	height: 2px;
+	width: 5%;
+}
+.b5div1 {
+	text-align: center;
+	margin: 70px 0px;
+}
+.b5div1 h1 {
+  font-size: 35px;
+  margin: 0px 0px 1% 0px;
+}
+.b5div1 p {
+	color: #A9A9A9;
+  font-size: 17px;
+  margin: 1% 0px 0px 0px;
+}
+.б5див2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+.b5box {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 20%;
+}
+.b5photo {
+	display: flex;
+	justify-content: space-between;
+}
+.b5photo img {
+    width: 100px;
+    height: 100px;
+}
+.b5box p {
+	color: #A9A9A9;
+	border-radius: 5px;
+	font-size: 17px;
+}
+.b5p {
+	background: whitesmoke;
+}
+
+
+
+
+
+
+
+/*блок 6*/
+
+.блок6 {
+	filter: brightness(95%);
+	background-image: url(image/3.png);
+	background-size: 100%;
+	text-align: center;
+	width: 100%;
+	padding: 2% 0px;
+}
+.b6line {
+	border: none;
+	background-color: white;
+	height: 2px;
+	width: 5%;
+}
+.блок6 h1 {
+	color: white;
+  font-size: 35px;
+  margin: 0px 0px 1% 0px;
+}
+.блок6 p {
+	color: gray;
+  font-size: 17px;
+  margin: 1% 0px 0px 0px;
+}
+.download3 {
+	color: white;
+	background-color: Transparent;
+	margin: 50px;
+	border: 2px solid white;
+	width: 10%;
+	height: 19%;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+/*блок 7*/
+.блок7 {
+	text-align: center;
+	width: 100%;
+	margin: 70px 0px;
+}
+.блок7 h1 {
+  font-size: 35px;
+  margin: 0px 0px 1% 0px;
+}
+.b7line {
+	border: none;
+	background-color: #EF8989;
+	height: 1px;
+	width: 5%;
+}
+.блок7 p {
+	color: gray;
+  font-size: 17px;
+  margin: 1% 0px 0px 0px;
+}
+.grid2 {
+	width: 100%;
+	margin: 6% 0px;
+	display: grid;
+	grid-template-columns: repeat(2, auto-fill);
+	grid-auto-rows: 60px;
+}
+.tab2 {
+	grid-column-start: 2;
+	grid-row-start: 1;
+    grid-row-end: 4;
+}
+.text2 {
+	height: 100%;
+	 width: 50%;
+  border: none;
+  background: no-repeat bottom, 50% calc(100% - 1px);
+  background-size: 0 100%, 100% 100%;
+  background-image: linear-gradient(0deg, #C0C0C0 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
+}
+
+.text2:focus {
+  background-size: 100% 100%, 100% 100%;
+  transition-duration: .3s;
+  box-shadow: none;
+  outline: none;
+}
+.send {
+	color: white;
+	background-color: #EF8989;
+	border: 2px solid #EF8989;
+	width: 11%;
+	height: 7%;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+
+/*блок 8*/
+.блок8 {
+	background: black;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 width: 100%;
+	 text-align: center;
+}
+.блок8 img {
+	padding: 1% 0px 0px 0px;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+}
+.блок8 p {
+	color: white;
+}
